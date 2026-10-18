@@ -28,7 +28,7 @@ Details, HTTP headers, and page hash (`37bbf731030c113e2e2e75fe7b5ed0b1d11829cfc
 
 ## Not claimed
 
-- Optimality (`d = 9` or `d = 10`) for `(n=14, k=3, c=5)` is not claimed; over `GF(9)`, the Hermitian Singleton bound `2d <= n + c - k + 2` gives `d <= 8` for any Hermitian-constructed code at `(14, 3, 5)`, while the general table upper bound is `10`.
+- Optimality (`d = 9` or `d = 10`) for `(n=14, k=3, c=5)` is not claimed. The EA-Singleton bound `2d <= n + c - k + 2 = 18` only gives `d <= 9`; the binding `d <= 8` limit is the `codetables.de` upper bound on the minimum distance of the `[14, 6]_9` linear code used as the Hermitian dual in the construction. The general EAQECC table upper bound for this cell is `10`.
 - Only cell `(n=14, k=3, c=5)` is claimed in this package (`one cell per package`). Other cells along the `[14, 6, 8]_9` diagonal and propagation consequences (`[[14, 0, 8; 2]]_3`, `[[13, 0, 8; 3]]_3`, `[[12, 0, 8; 4]]_3`, `[[11, 0, 8; 5]]_3`) are not claimed here.
 - Not yet submitted to or listed by the table maintainer (`eaqecc.codetables.de`).
 - Not peer reviewed; verified by a three-skeptic panel (`panel/`) and by the standalone checker in `verify-it-yourself/`.
